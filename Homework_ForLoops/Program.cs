@@ -7,7 +7,7 @@
 Console.Write("Enter list of comma-separated names: ");
 string? data = Console.ReadLine();
 
-//place each name into array
+//place each name into string array
 string[] names = data.Split(',');
 
 //loop and display names
